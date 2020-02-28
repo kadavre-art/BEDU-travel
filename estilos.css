@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    background: #ccc;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+body{
+    background: rgb(209, 208, 208);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background: #000;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+header nav a{
+    color: #fff;
+}
+
+
+footer{
+    background: #074380;  
+    height: 200px;
+}
+
+footer .info a{    
+    color: #fff;
+    
+    
+}
+
+footer .social a{
+    color: #fff;
+   
+    
+}
+
